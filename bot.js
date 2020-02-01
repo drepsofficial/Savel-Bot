@@ -156,14 +156,17 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'akay') {
     msg.reply('Hyrdır?');
   }
-  if (msg.content.toLowerCase() === '<!@404935478911959061>') {
+  if (msg.content.toLowerCase() === '<@!404935478911959061>') {
     msg.reply('Efendim ha?');
   }
-  if (msg.content.toLowerCase() === '<!@356341031492648963>') {
+  if (msg.content.toLowerCase() === '<@!356341031492648963>') {
     msg.reply('HA? Buyur.');
   }
   if (msg.content.toLowerCase() === '.') {
     msg.reply('NOKTA.');
+  }
+  if (msg.content.toLowerCase() === '<@!658226007118970890>') {
+    msg.reply('Buyur benim.');
   }
 });
 
