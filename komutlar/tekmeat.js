@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     .setAuthor('')
     .setColor(3447003)
     .setDescription(`** ${mesaj} ` + ", " + message.author.username + ' Adlı Kişi Sana Tekme Attı.!**')
-	.setImage(`https://78.media.tumblr.com/c55fdd13327df0ad15015bca31ee1088/tumblr_owi7ntZIpM1udghf4o1_400.gif`)
+	.setImage(`https://media.tenor.com/images/2787aa841c08a878f6587f3fafc2d33e/tenor.gif`)
     return message.channel.sendEmbed(embed);
 };
 
