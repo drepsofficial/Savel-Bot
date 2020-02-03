@@ -147,15 +147,6 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'iyi geceler.') {
     msg.reply('İyi geceler. :crescent_moon:');
   }
-  if (msg.content.toLowerCase() === 'dreps') {
-    msg.reply('Efendim ha?');
-  }
-  if (msg.content.toLowerCase() === 'voxen') {
-    msg.reply('HA? Buyur.');
-  }
-  if (msg.content.toLowerCase() === 'akay') {
-    msg.reply('Hyrdır?');
-  }
   if (msg.content.toLowerCase() === '<@!404935478911959061>') {
     msg.reply('Efendim ha?');
   }
@@ -190,7 +181,7 @@ var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 
 var oyun = [
         "?help",
-        "Yeni komut: ?doğrulukcesaret"
+        "Yeni: ?aşkölçer ?doğrulukcesaret"
     ];
 
     setInterval(function() {
