@@ -189,13 +189,12 @@ var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 
 
 var oyun = [
-        "?help",
-        "Yeni: ?aşkölçer ?doğrulukcesaret"
+        "?yardım ?help"
     ];
 
     setInterval(function() {
 
-        var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
+        var random = Math.floor(Math.random()*oyun.length);
 
         client.user.setGame(oyun[random]);
         }, 2 * 2500);
