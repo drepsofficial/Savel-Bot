@@ -144,7 +144,7 @@ var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 
 
 var oyun = [
-        "?yardım ?help"
+        "Exact Roleplay"
     ];
 
     setInterval(function() {
