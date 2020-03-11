@@ -2,7 +2,10 @@ const Discord = require('discord.js');
 
 exports.run = (client, message, args) => {
   let mesaj = args.slice(0).join(' ');
-if (mesaj.length < 1) return message.reply('Yazmam için herhangi bir şey yazmalısın.');
+var owners = ["439440128495058954","337326216568766464","404935478911959061"];
+
+if (!owners.includes(message.author.id)) return message.reply('Bu komudu kullanmaya yetkiniz yetmiyor.');
+if (mesaj.length < 1) return message.reply('Yazmam için herhangi bir şey yazmalısınız.');
   message.delete();
   message.channel.send(mesaj);
 };
