@@ -20,8 +20,5 @@
     "request": "^2.88.0",
     "tags": "^2.0.10"
   },
-  "devDependencies": {
-    "node-superfetch": "^0.1.10",
-    "weather-js": "^2.0.0"
-  }
+
 }
