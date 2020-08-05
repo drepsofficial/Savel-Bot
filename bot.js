@@ -108,7 +108,7 @@ var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 
 
 var oyun = [
-        "+help or +yardım"
+        "+help | +yardım"
     ];
 
     setInterval(function() {
