@@ -1,2 +1,3 @@
 # Savel-Bot
-Son discord.js kütüphanesine güncellenmemiştir.
+Eğlence discord botu.
+Son discord.js sürümüne güncellenmedi.
