@@ -13,7 +13,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Botu sunucunuza eklemek için dreps#0989 ile iletişim kurunuz.');
+    .setDescription('Botu sunucunuza eklemek için dreps#5646 ile iletişim kurunuz.');
     return message.author.sendEmbed(pingozel)
 };
 
