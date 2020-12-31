@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Bot sürümü: v1.5' + ' Geliştirici: dreps#0989\n\n_**BOTU EKLEMEK İÇİN:**_\n\ndreps#0989 ulaşın.\n\n**:copyright: 2020 [SAVEL]**');
+    .setDescription('Bot sürümü: v0.1');
     return message.author.sendEmbed(pingozel)
 };
 
